@@ -6,4 +6,4 @@ document.write(`
   </div>
 `);
 
-console.log($(this)); # do we have jquery?
+console.log($(this)); // do we have jquery?
