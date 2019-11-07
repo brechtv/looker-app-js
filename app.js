@@ -5,3 +5,5 @@ document.write(`
     <h1>Hello World</h1>
   </div>
 `);
+
+console.log($(this)); # do we have jquery?
