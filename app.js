@@ -9,7 +9,7 @@ document.write(`
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 `)
 
-
+// jaja injecting stuff like this is bad bad bad but this is just a POC
 document.write(`
   <div class="container" style='margin-top: 20px'>
     <div class="jumbotron">
