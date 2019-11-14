@@ -13,18 +13,18 @@ document.write(`
 document.write(`
   <div class="container" style='margin-top: 20px'>
     <div class="jumbotron">
-  <h1 class="display-4">Hello, world!</h1>
+  <h1 class="display-4">Hello, Romain!</h1>
   <p class="lead">Click my button!</p>
   <hr class="my-4">
-  <p>Clicked <span id='times'>0 times</span></p>
-  <a id="meow" class="btn btn-primary btn-lg" href="#" role="button">Click me!</a>
+  <a id="meow" class="btn btn-primary btn-lg" href="#" role="button">Click for more Romain!</a>
+  <p><span id='times'></span></p>
 </div>
   </div>
   <script>
-    let clicky = 0;
+    let clicky = "";
     document.getElementById("meow").addEventListener("click", function(){
-      clicky += 1;
-      document.getElementById("times").innerHTML = clicky + (clicky > 1 ? " times" : " time");
+      clicky += '<img src="https://dcleu.eu.looker.com/favicon.ico" style="border-radius: 64px; margin: 5px;" />';
+      document.getElementById("times").innerHTML = clicky ;
     });
 
   </script>
